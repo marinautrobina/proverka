@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17232f">
+  <meta name="description" content="Бесплатная диагностика вопросов, которые стоит проверить перед покупкой недвижимости: участок, дом, строительство, квартира или новостройка. Марина Утробина — эксперт по недвижимости.">
+  <meta property="og:title" content="Что проверить перед покупкой недвижимости — Марина Утробина">
+  <meta property="og:description" content="9 вопросов. Персональный маршрут проверки. Спокойно, без запугивания и сложных терминов.">
+  <title>Что проверить перед покупкой недвижимости — Марина Утробина</title>
+  <style>
+    :root {--ink:#17232f; --graph:#303235; --milk:#f5f1e9; --sage:#788574; --taupe:#9a8878; --line:#deded6; --paper:#ffffff; --muted:#647179; --light:#eef0eb; --soft:#faf9f6; --amber:#9a6946; --red:#954d45; --shadow:0 14px 50px rgba(23,35,47,.09);}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--milk);color:var(--ink);font-family:Inter,"Segoe UI",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.55}
+    button,input,a{font:inherit}
+    button{cursor:pointer}
+    a{color:inherit}
+    :focus-visible{outline:3px solid #a5ac86;outline-offset:4px}
+    .frame{max-width:1160px;margin:0 auto;padding:0 25px}
+    .topbar{background:var(--ink);color:white;position:relative;z-index:2}
+    .topbar-inner{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:15px}
+    .logo{display:flex;align-items:center;gap:13px;text-decoration:none}
+    .logo-sign{width:36px;height:36px;border:1px solid #d9dfda77;display:grid;place-items:center;border-radius:10px;flex-shrink:0}
+    .logo-title{display:block;font-weight:760;font-size:14px;letter-spacing:.02em;line-height:1.2}
+    .logo-caption{display:block;font-size:11px;color:#c5d0d1;letter-spacing:.06em;margin-top:5px;text-transform:uppercase}
+    .topnav{font-size:13px;text-decoration:none;color:#f1f0e9;border-bottom:1px solid #c4cbb2;padding-bottom:4px;white-space:nowrap}
+    .hero{background:var(--ink);position:relative;overflow:hidden;color:white;padding:70px 0 85px}
+    .hero:before{content:"";position:absolute;width:780px;height:540px;border:1px solid rgba(221,231,220,.16);border-radius:40px;right:-280px;top:10px;transform:rotate(-24deg)}
+    .hero:after{content:"";position:absolute;width:620px;height:420px;border:1px solid rgba(221,231,220,.13);border-radius:30px;right:-160px;top:40px;transform:rotate(-24deg)}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center;position:relative;z-index:1}
+    .eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:750;color:#bed0bc;display:flex;gap:12px;align-items:center}
+    .eyebrow:before{content:"";height:7px;width:7px;background:#b3c4af;border-radius:50%}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(36px,4.6vw,61px);line-height:1.08;letter-spacing:-.045em;font-weight:690;margin:24px 0}
+    .highlight{color:#cad7c3}
+    .lede{color:#e0e6e2;max-width:550px;font-size:17px;line-height:1.7}
+    .hero-points{display:flex;flex-wrap:wrap;gap:12px 22px;margin:28px 0 31px;color:#e5e8e3;font-size:13px}
+    .hero-points span{display:flex;align-items:center;gap:7px}
+    .checkmark{width:18px;height:18px;border-radius:100px;display:inline-grid;place-items:center;background:#aebda824;color: #e5eee2;font-size:12px}
+    .btn{border:0;appearance:none;border-radius:13px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:720;text-decoration:none;padding:15px 22px;min-height:52px;transition:transform .15s,background .15s,box-shadow .15s;text-align:center}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:#cdd9c6;color:#17232f}
+    .btn-primary:hover{background:#e4eddc}
+    .btn-dark{background:var(--ink);color:white}
+    .btn-dark:hover{background:#30475a}
+    .btn-outline{border:1px solid #b9c1b9;background:#fff;color:var(--ink)}
+    .btn-outline:hover{background:#f0f3ee}
+    .btn-muted{color:var(--ink);background:transparent;border:1px solid #d3d7d3}
+    .btn:disabled{opacity:.42;cursor:not-allowed;transform:none}
+    .hero-note{font-size:12px;color:#bdc9c6;margin-top:15px}
+    .architect-card{position:relative;width:100%;max-width:420px;margin:auto;aspect-ratio:1.05;border:1px solid #c7d1c150;border-radius:22px;padding:30px;background:linear-gradient(155deg,#344552ee,#1b2d38);box-shadow:0 28px 85px #0f1a25aa}
+    .drawing{width:100%;height:77%;position:relative;border:1px solid #c3cec66b;border-radius:7px;background:linear-gradient(90deg,transparent 49.8%,#c6d4c01e 50%,transparent 50.2%),linear-gradient(0deg,transparent 49.8%,#c6d4c01e 50%,transparent 50.2%);overflow:hidden}
+    .drawing svg{position:absolute;width:100%;height:100%;left:0;top:0}
+    .marker{position:absolute;background:var(--milk);color:var(--ink);padding:8px 12px;border-radius:9px;font-size:12px;font-weight:780;box-shadow:var(--shadow)}
+    .mark1{top:23%;left:10%}.mark2{right:7%;bottom:18%}
+    .drawing-label{position:absolute;top:14px;right:14px;font-size:10px;letter-spacing:.12em;color:#c8d2c7}
+    .card-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0 0;font-size:13px;color:#dce5df}
+    .num{font-size:25px;font-weight:750;color:#fff;letter-spacing:-.04em}
+    .section{padding:73px 0}
+    .section-title{font-size:clamp(27px,3vw,37px);line-height:1.18;letter-spacing:-.035em;font-weight:690;margin-bottom:14px}
+    .section-lede{color:var(--muted);max-width:700px;font-size:16px}
+    .quiz-shell{background:white;border:1px solid #e5e5e0;border-radius:22px;box-shadow:var(--shadow);overflow:hidden;margin-top:28px}
+    .quiz-head{background:#f7f8f5;border-bottom:1px solid #e8eae5;display:flex;align-items:center;justify-content:space-between;padding:20px 28px;gap:12px}
+    .quiz-label{font-size:12px;letter-spacing:.09em;color:#65746c;text-transform:uppercase;font-weight:800}
+    .quiz-duration{font-size:13px;color:#62706d}
+    .quiz-body{padding:40px 42px 45px;min-height:340px}
+    .choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:28px}
+    .choice{border:1.5px solid #d9ded8;border-radius:15px;padding:18px;display:flex;align-items:center;gap:15px;text-align:left;background:white;color:var(--ink);min-height:83px;transition:border .15s,background .15s,transform .15s}
+    .choice:hover{border-color:var(--sage);background:#f8faf6;transform:translateY(-1px)}
+    .choice.selected{border:2px solid #667d6d;background:#eef3ee}
+    .choice-icon{width:39px;height:39px;border-radius:11px;background:#e9eee6;display:grid;place-items:center;color:#546959;flex:0 0 auto}
+    .choice strong{display:block;font-size:16px;line-height:1.25}
+    .choice small{display:block;font-size:12px;font-weight:400;color:var(--muted);margin-top:6px;line-height:1.4}
+    .mini-heading{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--sage);margin-bottom:8px}
+    .step-title{font-size:clamp(24px,3vw,33px);font-weight:700;line-height:1.25;letter-spacing:-.035em;max-width:760px;margin-bottom:10px}
+    .question-note{font-size:15px;color:#58656b;max-width:660px;margin-bottom:6px}
+    .step-counter{color:#65706e;font-size:13px;font-weight:650}
+    .progress{height:5px;background:#edf0eb;border-radius:20px;overflow:hidden;margin-top:12px}
+    .progress>div{height:100%;background:#829581;transition:width .22s ease}
+    .answer-grid{display:grid;grid-template-columns:1fr;gap:11px;max-width:730px;margin-top:25px}
+    .answer{display:flex;align-items:center;gap:14px;text-align:left;min-height:64px;padding:14px 17px;border-radius:13px;border:1.4px solid #dfe3df;color:var(--ink);background:#fff}
+    .answer:hover{background:#f7f9f6;border-color:#8da28f}
+    .answer.selected{background:#eaf2e9;border-color:#657f6e;box-shadow:inset 0 0 0 1px #657f6e}
+    .radio{width:21px;height:21px;flex-shrink:0;border:1.7px solid #aeb7ac;border-radius:50%;display:grid;place-items:center}
+    .answer.selected .radio{border-color:#5c755e}
+    .answer.selected .radio:before{content:"";width:10px;height:10px;border-radius:50%;background:#5c755e}
+    .quiz-actions{margin-top:28px;display:flex;justify-content:space-between;align-items:center;gap:13px;flex-wrap:wrap}
+    .nudge{font-size:13px;color:#75817e}
+    .result-header{background:#f0f3ed;border:1px solid #dee7d9;border-radius:16px;padding:25px}
+    .result-tag{display:inline-block;padding:5px 10px;border-radius:7px;background:#e5ede3;color:#4d6654;font-size:12px;font-weight:760;letter-spacing:.06em;text-transform:uppercase;margin-bottom:15px}
+    .result-title{font-size:clamp(24px,3vw,36px);font-weight:750;line-height:1.2;letter-spacing:-.03em;margin-bottom:13px}
+    .result-description{margin:0;color:#45565d;max-width:720px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:21px 0 29px}
+    .stat{background:#f8f9f7;border:1px solid #e9ece8;border-radius:13px;padding:17px}
+    .stat b{font-size:30px;line-height:1.1;display:block;letter-spacing:-.04em}
+    .stat span{font-size:12px;color:#5b6864}
+    .result-subhead{font-size:20px;letter-spacing:-.015em;margin:26px 0 13px}
+    .todo-list{display:grid;gap:10px;padding:0;margin:0;list-style:none}
+    .todo{display:flex;gap:14px;border:1px solid #e2e6e0;border-radius:12px;padding:17px 18px;background:#fff}
+    .todo-icon{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#f0ece6;color:#8b6c50;font-size:15px;flex:0 0 auto}
+    .todo.neutral .todo-icon{background:#ebf0e9;color:#61765b}
+    .todo b{display:block;font-size:15px;margin-bottom:4px;line-height:1.35}
+    .todo p{font-size:13px;color:#606d6c;line-height:1.55;margin:0}
+    .cta-card{background:var(--ink);color:white;border-radius:18px;padding:29px;margin-top:31px;display:grid;grid-template-columns:1fr;gap:20px;align-items:center}
+    .cta-card h3{font-size:23px;line-height:1.23;margin:0 0 9px;letter-spacing:-.022em}
+    .cta-card p{margin:0;color:#d5dcd8;font-size:14px;max-width:540px}
+    .cta-card .btn{white-space:normal}
+    .contact-options{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .contact-options .btn{font-size:14px;min-height:48px;padding:12px 16px}
+    .btn-secondary{background:white;color:var(--ink);border:1px solid #c5d2c7}
+    .btn-secondary:hover{background:#edf3e9}
+    .about .contact-options{margin-top:22px}
+    .cta-card .contact-options{justify-content:flex-start;max-width:640px}
+    .cta-card .contact-options .btn{white-space:normal}
+
+    .result-tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+    .micro-note{font-size:12px;color:#687772;margin-top:18px}
+    .benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:31px}
+    .benefit{padding:24px;border-radius:15px;background:#fff;border:1px solid #e6e7e0}
+    .benefit h3{font-size:17px;font-weight:740;margin:14px 0 8px}
+    .benefit p{color:#63716b;font-size:14px;margin:0;line-height:1.58}
+    .numbered{display:inline-grid;width:38px;height:38px;place-items:center;background:#edf1e9;color:#486151;border-radius:11px;font-weight:800}
+    .about{background:#e8eae3;border-top:1px solid #d7dbd1;border-bottom:1px solid #d7dbd1;padding:55px 0}
+    .about-content{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .about-quote{background:#fff;border-left:4px solid #788574;border-radius:2px 13px 13px 2px;padding:26px 30px;font-size:20px;font-weight:610;line-height:1.5;letter-spacing:-.02em}
+    .footer{background:#17232f;color:#d3ddda;padding:35px 0}
+    .footer-in{display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .footer a{color:#d7e4d7}
+    .footer small{font-size:12px;color:#b9c6c2}
+    .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;border:1px solid #778c80;padding:13px 18px;border-radius:11px;box-shadow:var(--shadow);font-size:14px;z-index:12;max-width:95vw}
+    .todo p + p{margin-top:8px}
+    .todo-action{border-left:2px solid #b5c5af;padding-left:11px;color:#334844!important}
+    .action-list{counter-reset:steps;list-style:none;margin:0;padding:0;display:grid;gap:10px}
+    .action-list li{background:#f6f8f4;border:1px solid #e4e8e0;padding:14px 16px 14px 48px;border-radius:12px;position:relative;font-size:14px;line-height:1.5}
+    .action-list li:before{counter-increment:steps;content:counter(steps);position:absolute;left:16px;top:15px;border-radius:6px;background:#dce6d7;color:#294534;width:23px;height:23px;display:grid;place-items:center;font-weight:800;font-size:12px}
+    .legal{border-top:1px solid #e4e8e0;padding-top:13px;color:#77817c;font-size:12px;margin-top:29px}
+    @media(max-width:850px){.hero-grid{grid-template-columns:1fr;gap:30px}.architect-card{display:none}.hero{padding:60px 0}.about-content{grid-template-columns:1fr;gap:25px}.cta-card{grid-template-columns:1fr}.benefits{grid-template-columns:1fr}.choices{grid-template-columns:1fr}}
+    @media(max-width:600px){.contact-options{display:grid;grid-template-columns:1fr}.contact-options .btn{width:100%;}.frame{padding:0 18px}.topbar-inner{min-height:70px}.logo-title{font-size:13px}.logo-caption{font-size:10px}.topnav{font-size:12px}.hero{padding:50px 0 58px}h1{font-size:39px}.lede{font-size:15px}.hero-points{display:grid;gap:12px}.section{padding:50px 0}.quiz-shell{margin-top:22px;border-radius:16px}.quiz-head{padding:15px 18px}.quiz-body{padding:25px 19px 30px;min-height:310px}.choices{margin-top:20px}.choice{padding:16px;min-height:76px}.answer{padding:13px}.quiz-actions{display:grid;grid-template-columns:1fr 1fr}.quiz-actions .btn{width:100%;padding:12px 14px;min-height:49px}.quiz-actions .nudge{grid-column:1/-1;grid-row:2;text-align:center}.stats{grid-template-columns:repeat(3,1fr);gap:6px}.stat{padding:10px 8px;text-align:center}.stat b{font-size:26px}.stat span{font-size:10px;line-height:1.3;display:block}.result-header{padding:21px}.cta-card{padding:23px}.cta-card .btn{white-space:normal}.result-tools{display:grid;grid-template-columns:1fr}.result-tools .btn{width:100%}.footer-in{flex-direction:column;align-items:flex-start}}
+    @media print {.topbar,.hero,.benefits-section,.about,.footer,.quiz-head,.quiz-actions,.cta-card,.result-tools,.micro-note{display:none!important}body{background:white!important}.frame{max-width:none}.section{padding:0!important}.quiz-shell{box-shadow:none;border:0}.quiz-body{padding:0}.stat,.todo,.result-header{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="frame topbar-inner">
+      <a class="logo" href="#top" aria-label="На главную">
+        <span class="logo-sign" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#d9e3d2" stroke-width="1.5"><path d="M3 11.5 12 4l9 7.5V21H3z"/><path d="M8 21v-8h8v8"/></svg></span>
+        <span><span class="logo-title">МАРИНА УТРОБИНА</span><span class="logo-caption">Стратегия недвижимости</span></span>
+      </a>
+      <a class="topnav" href="https://t.me/MarinaUtrobina_Realtor" target="_blank" rel="noopener noreferrer">Написать мне ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="frame hero-grid">
+        <div>
+          <div class="eyebrow">Бесплатная онлайн-диагностика · 3 минуты</div>
+          <h1>Недвижимость понравилась. <span class="highlight">А что вы могли не проверить?</span></h1>
+          <p class="lede">9 простых вопросов помогут увидеть, на что обратить внимание <strong>до аванса, задатка или подписания договора</strong>. Получите персональный маршрут проверки — без сложных терминов и запугивания.</p>
+          <div class="hero-points">
+            <span><i class="checkmark" aria-hidden="true">✓</i> Для новостройки, вторички и загородной недвижимости</span>
+            <span><i class="checkmark" aria-hidden="true">✓</i> Без регистрации и номера телефона</span>
+            <span><i class="checkmark" aria-hidden="true">✓</i> Индивидуальные рекомендации</span>
+          </div>
+          <a class="btn btn-primary" href="#diagnostics">Начать диагностику <span aria-hidden="true">→</span></a>
+          <div class="hero-note">Ваши ответы никуда не отправляются и остаются только в этом браузере.</div>
+        </div>
+        <div class="architect-card" aria-hidden="true">
+          <div class="drawing">
+            <svg viewBox="0 0 350 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 75 188 28l105 80v151H50z" stroke="#cddbcc" stroke-width="1.9" opacity=".88"/>
+              <path d="M50 105 188 58l105 80M147 95v164M49 196h98M147 181h146M211 181v78M147 136h64V75M49 259h245" stroke="#bfccbd" stroke-width="1.4" opacity=".75"/>
+              <path d="M181 28v-16M41 75H24M307 259h13" stroke="#e0e5e1" stroke-dasharray="4 4"/>
+              <circle cx="188" cy="28" r="4" fill="#dae5d5"/><circle cx="50" cy="75" r="4" fill="#dae5d5"/><circle cx="294" cy="259" r="4" fill="#dae5d5"/>
+              <path d="M255 226l12 12 21-26" stroke="#dae6d5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="drawing-label">ВАШ ПЛАН ПРОВЕРКИ</div>
+            <div class="marker mark1">01 / Уточнить</div><div class="marker mark2">02 / Проверить</div>
+          </div>
+          <div class="card-foot"><span>От первого впечатления<br>к обоснованному решению</span><span class="num">9 / 9</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="diagnostics" class="section intro">
+      <div class="frame">
+        <div class="mini-heading">Шаг первый</div>
+        <h2 class="section-title">Начнём с вашей ситуации</h2>
+        <p class="section-lede">У разных объектов — разные важные вопросы. Выберите подходящий вариант — новостройку, вторичку, загородный объект или «пока не определился(ась)». Вопросы подстроятся под вашу ситуацию.</p>
+        <div class="quiz-shell" id="quiz-shell">
+          <div class="quiz-head"><span class="quiz-label">Экспресс-диагностика покупки</span><span class="quiz-duration" id="stage-caption">Около 3 минут</span></div>
+          <div class="quiz-body" id="quiz-content" aria-live="polite">
+            <noscript>Для прохождения диагностики включите JavaScript в настройках браузера.</noscript>
+          </div>
+        </div>
+        <div class="legal">Это предварительная образовательная диагностика по вашим ответам, не проверка объекта и не юридическое заключение. Правила и ипотечные условия меняются: актуальность проверяйте перед сделкой.</div>
+      </div>
+    </section>
+
+    <section class="section benefits-section" style="padding-top:0">
+      <div class="frame">
+        <h2 class="section-title">Что вы получите</h2>
+        <div class="benefits">
+          <article class="benefit"><span class="numbered">01</span><h3>Ясность до сделки</h3><p>Поймёте, какие вопросы уже закрыты, а какие ещё нужно уточнить — без лишней тревоги.</p></article>
+          <article class="benefit"><span class="numbered">02</span><h3>Ваш маршрут проверки</h3><p>Конкретные следующие действия с учётом выбранного типа недвижимости и ваших ответов.</p></article>
+          <article class="benefit"><span class="numbered">03</span><h3>Контакт эксперта</h3><p>Если понадобится помощь, можно написать мне напрямую в Telegram, WhatsApp или MAX.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="frame about-content">
+        <div>
+          <div class="mini-heading">Эксперт на стороне клиента</div>
+          <h2 class="section-title">Марина Утробина</h2>
+          <p>Эксперт по недвижимости с 2019 года. Екатеринбург, Свердловская область, сделки по России.</p>
+          <p>Мой главный фокус — загородная недвижимость: от выбора участка и проекта дома до сопровождения строительства и оформления документов. Также работаю с квартирами, новостройками и нестандартными сделками.</p>
+          <p><strong>Мой подход:</strong> сначала разобраться в вашей задаче, увидеть ограничения, сравнить варианты и только потом принимать решение.</p>
+          <div class="contact-options" aria-label="Способы связи с Мариной Утробиной">
+  <a class="btn btn-primary" href="https://t.me/MarinaUtrobina_Realtor" target="_blank" rel="noopener noreferrer">Написать в Telegram ↗</a>
+  <a class="btn btn-secondary" href="https://wa.me/79222066292" target="_blank" rel="noopener noreferrer">Написать в WhatsApp ↗</a>
+  <a class="btn btn-secondary" href="https://max.ru/u/f9LHodD0cOKrNUSFA4MYgNDGRtgfjBiRPP_Ccs4-j1wNu-8o9KubDN5BEiM" target="_blank" rel="noopener noreferrer">Написать в MAX ↗</a>
+</div>
+        </div>
+        <div class="about-quote">«Не просто выбрать недвижимость. Принять продуманное решение, которое подходит именно вашей жизни».</div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="frame footer-in"><div><strong>Марина Утробина</strong> · ИнвестПространство<br><small>Екатеринбург · Свердловская область · сделки по России</small></div><div><small>Данные ответов не собираются и не отправляются на сервер. © 2026</small></div></div></footer>
+  <div id="announcer" class="visually-hidden" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  'use strict';
+  const CONTACT = Object.freeze({telegramChannel:'https://t.me/investprostranstvo_realty', telegramDirect:'https://t.me/MarinaUtrobina_Realtor', whatsapp:'https://wa.me/79222066292', max:'https://max.ru/u/f9LHodD0cOKrNUSFA4MYgNDGRtgfjBiRPP_Ccs4-j1wNu-8o9KubDN5BEiM'});
+  const types = [
+  {
+    "id": "new",
+    "icon": "▥",
+    "label": "Новостройка",
+    "sub": "Квартира от застройщика"
+  },
+  {
+    "id": "flat",
+    "icon": "▣",
+    "label": "Вторичная квартира",
+    "sub": "Готовая квартира от собственника"
+  },
+  {
+    "id": "land",
+    "icon": "⌗",
+    "label": "Земельный участок",
+    "sub": "Земля под свой будущий дом"
+  },
+  {
+    "id": "house",
+    "icon": "⌂",
+    "label": "Готовый дом",
+    "sub": "Дом вместе с земельным участком"
+  },
+  {
+    "id": "build",
+    "icon": "▤",
+    "label": "Строительство дома",
+    "sub": "Выбор участка, проекта, подрядчика"
+  },
+  {
+    "id": "undecided",
+    "icon": "◇",
+    "label": "Пока не определился(ась)",
+    "sub": "Помогите сравнить разные варианты"
+  }
+];
+  const universal = [
+  {
+    "id": "goal",
+    "title": "Вы понимаете, какую задачу должна решить покупка?",
+    "note": "Для жизни или инвестиции, состав семьи, необходимое пространство и планы на ближайшие годы.",
+    "action": "Запишите 3–5 главных требований к будущей недвижимости и отделите обязательные условия от приятных пожеланий.",
+    "weight": 2
+  },
+  {
+    "id": "finance",
+    "title": "Вы рассчитали реальный бюджет покупки и способ оплаты?",
+    "note": "Учтите не только цену, но и ипотечный платёж, налоги и сборы в применимых случаях, ремонт, переезд и резерв.",
+    "action": "Сравните несколько финансовых сценариев и заложите резерв на дополнительные расходы; актуальные ипотечные условия проверьте в банке.",
+    "weight": 3
+  },
+  {
+    "id": "timeline",
+    "title": "Вы определили сроки и оставили время на проверки?",
+    "note": "Спешка может помешать заметить недостатки договора, документов или самого объекта.",
+    "action": "Составьте календарь решения: сбор документов, независимая проверка, расчёты, подписание и регистрация, если она нужна.",
+    "weight": 2
+  },
+  {
+    "id": "review",
+    "title": "Есть план независимой проверки перед внесением денег или подписанием обязательств?",
+    "note": "Важно заранее понимать, кто изучит документы, технические особенности и условия покупки.",
+    "action": "До аванса, задатка или бронирования определите, какие проверки нужны и кто их выполнит; изучите условия возврата денежных средств.",
+    "weight": 4
+  }
+];
+  const specialized = {
+  "new": [
+    {
+      "id": "new-dev",
+      "title": "Вы изучили сведения о застройщике и конкретном проекте?",
+      "note": "Важно проверять не рекламные обещания, а документы и сведения о ходе строительства.",
+      "action": "Найдите проектную декларацию и карточку дома на наш.дом.рф; сопоставьте сроки, характеристики и застройщика с предлагаемым договором.",
+      "weight": 4
+    },
+    {
+      "id": "new-contract",
+      "title": "Понятно, какой договор вы подписываете и как защищены платежи?",
+      "note": "У разных схем приобретения разные гарантии и риски; эскроу применяется не во всех случаях.",
+      "action": "Разберите вид договора, получателя платежа, порядок расчётов и применимость эскроу-счёта именно к вашей сделке.",
+      "weight": 4
+    },
+    {
+      "id": "new-terms",
+      "title": "Вы проверили сроки передачи и ответственность сторон?",
+      "note": "В договоре важно различать срок ввода дома в эксплуатацию и срок передачи вашей квартиры.",
+      "action": "Сверьте сроки и условия изменения проекта, ответственность сторон и порядок действий при задержке.",
+      "weight": 3
+    },
+    {
+      "id": "new-finish",
+      "title": "Уточнены площадь, отделка, комплектация и возможные доплаты?",
+      "note": "Цена в рекламе не всегда отражает полную стоимость квартиры к моменту заселения.",
+      "action": "Сопоставьте планировку, площадь, отделочные материалы, перечень передаваемого оборудования и дополнительные расходы.",
+      "weight": 3
+    },
+    {
+      "id": "new-pay",
+      "title": "Вы оценили условия ипотеки или рассрочки на весь срок?",
+      "note": "Особенно важно понимать платежи после окончания льготного периода и последствия просрочки.",
+      "action": "Попросите полный график платежей и условия изменения ставки/рассрочки; сопоставьте их с семейным бюджетом.",
+      "weight": 4
+    }
+  ],
+  "flat": [
+    {
+      "id": "flat-title",
+      "title": "Изучены основания собственности и история переходов прав?",
+      "note": "Наследование, дарение, приватизация и иные основания могут требовать дополнительных проверок.",
+      "action": "Запросите правоустанавливающие документы, актуальные сведения ЕГРН и при необходимости проанализируйте историю владения с юристом.",
+      "weight": 4
+    },
+    {
+      "id": "flat-family",
+      "title": "Проверены права супругов, сособственников и детей?",
+      "note": "Семейные обстоятельства и использование материнского капитала иногда влияют на структуру сделки.",
+      "action": "Выясните состав собственников, режим имущества, вопросы маткапитала и необходимость согласий/разрешений в конкретном случае.",
+      "weight": 4
+    },
+    {
+      "id": "flat-occupants",
+      "title": "Проверены зарегистрированные лица и возможные права проживания?",
+      "note": "Не всякое право пользования квартирой прекращается автоматически после продажи.",
+      "action": "Уточните сведения о зарегистрированных лицах и проверьте обстоятельства, которые могут сохранять право пользования после сделки.",
+      "weight": 3
+    },
+    {
+      "id": "flat-alter",
+      "title": "Проверены перепланировки и техническое состояние квартиры?",
+      "note": "Состояние объекта и фактическая планировка могут отличаться от документов.",
+      "action": "Сопоставьте техническую документацию с планировкой и оцените необходимый ремонт; при спорных изменениях обратитесь к специалисту.",
+      "weight": 3
+    },
+    {
+      "id": "flat-money",
+      "title": "Проверены обременения, полномочия продавца и порядок расчётов?",
+      "note": "Залог, арест, доверенность или неясная схема оплаты требуют отдельного внимания.",
+      "action": "Сверьте сведения об ограничениях, проверьте полномочия стороны договора и согласуйте прозрачный порядок безопасных расчётов.",
+      "weight": 4
+    }
+  ],
+  "land": [
+    {
+      "id": "land-title",
+      "title": "Проверены собственник, документы на участок и ограничения права?",
+      "note": "Красивое место не заменяет проверку прав на землю и возможных обременений.",
+      "action": "Запросите актуальные сведения ЕГРН и документы-основания; сопоставьте описание участка и полномочия продавца.",
+      "weight": 4
+    },
+    {
+      "id": "land-bound",
+      "title": "Границы участка определены и понятны на местности?",
+      "note": "Забор и фактическое пользование могут не совпадать с кадастровыми границами.",
+      "action": "Проверьте сведения о границах в ЕГРН и НСПД; при расхождениях привлеките кадастрового инженера.",
+      "weight": 3
+    },
+    {
+      "id": "land-use",
+      "title": "Вы выяснили, можно ли построить нужный вам дом именно здесь?",
+      "note": "Значение имеют категория земли, вид разрешённого использования и градостроительные требования.",
+      "action": "Сопоставьте категорию, ВРИ, ПЗЗ и при необходимости ГПЗУ с планируемым домом.",
+      "weight": 4
+    },
+    {
+      "id": "land-zones",
+      "title": "Вы проверили зоны и другие ограничения строительства?",
+      "note": "Охранные и иные зоны могут ограничивать место и параметры будущего дома.",
+      "action": "Проверьте ЕГРН, доступные сведения НСПД и градостроительные материалы; при сомнениях запросите официальные разъяснения.",
+      "weight": 4
+    },
+    {
+      "id": "land-access",
+      "title": "Понятно, как заехать на участок и подключить коммуникации?",
+      "note": "Фраза «электричество рядом» не означает доступного и недорогого подключения.",
+      "action": "Проверьте законный подъезд, состояние дороги и предварительные условия/стоимость подключения электричества, воды и иных сетей.",
+      "weight": 3
+    }
+  ],
+  "house": [
+    {
+      "id": "house-rights",
+      "title": "Проверены документы отдельно на дом и на земельный участок?",
+      "note": "Дом и земля — разные объекты, и права на них могут иметь особенности.",
+      "action": "Запросите сведения ЕГРН и документы-основания на оба объекта; сопоставьте правообладателей, характеристики и ограничения.",
+      "weight": 4
+    },
+    {
+      "id": "house-land",
+      "title": "Назначение дома и правовой режим земли подходят вашим планам?",
+      "note": "Использование дома и участка должно соответствовать документам и действующим требованиям.",
+      "action": "Проверьте назначение здания, ВРИ участка, градостроительные ограничения и зарегистрированные характеристики.",
+      "weight": 4
+    },
+    {
+      "id": "house-tech",
+      "title": "Дом проверен техническим специалистом?",
+      "note": "Фундамент, кровля, отопление, влажность и инженерные системы могут иметь скрытые дефекты.",
+      "action": "Организуйте технический осмотр с профильным специалистом и оцените стоимость устранения проблем.",
+      "weight": 4
+    },
+    {
+      "id": "house-engineer",
+      "title": "Вы проверили коммунальные системы и расходы на эксплуатацию?",
+      "note": "Важны отопление, вода, канализация, электрическая мощность и регулярные платежи.",
+      "action": "Проверьте работоспособность инженерных систем, документы на подключения и ориентировочную стоимость обслуживания.",
+      "weight": 3
+    },
+    {
+      "id": "house-use",
+      "title": "Вы уточнили права проживания, доступ к участку и фактические изменения?",
+      "note": "Постройки, пристройки, использование земли и права третьих лиц иногда требуют дополнительной проверки.",
+      "action": "Сравните фактические постройки с документами, уточните доступ и проверьте возможные права пользования и ограничения.",
+      "weight": 3
+    }
+  ],
+  "build": [
+    {
+      "id": "build-land",
+      "title": "Вы убедились, что участок подходит под будущий дом?",
+      "note": "Параметры участка и ограничения должны подходить конкретному проекту, а не только понравившемуся фасаду.",
+      "action": "Проверьте право на участок, ВРИ, градостроительные ограничения, подъезд и доступность подключений.",
+      "weight": 4
+    },
+    {
+      "id": "build-project",
+      "title": "Есть проект и подробный перечень работ?",
+      "note": "Без перечня материалов и работ сложно понять, за что вы платите.",
+      "action": "Запросите проект, спецификацию, состав работ и перечень того, что не входит в стоимость.",
+      "weight": 3
+    },
+    {
+      "id": "build-builder",
+      "title": "Вы проверили подрядчика и его реальные объекты?",
+      "note": "Важны юридический статус, опыт, примеры законченных работ и репутация.",
+      "action": "Проверьте сведения о компании/ИП, действующие объекты, договорные обязательства и доступные отзывы; по возможности посетите построенные дома.",
+      "weight": 4
+    },
+    {
+      "id": "build-contract",
+      "title": "Договор понятен по цене, срокам, приёмке и ответственности?",
+      "note": "Слишком общие условия создают споры о дополнительных работах и сроках.",
+      "action": "Разберите смету, график платежей, изменение цены, документы по этапам, приёмку, гарантии и ответственность сторон.",
+      "weight": 4
+    },
+    {
+      "id": "build-total",
+      "title": "Учтены дополнительные затраты и независимый контроль качества?",
+      "note": "Подготовка участка, сети, инженерия и отделка могут увеличить итоговый бюджет.",
+      "action": "Составьте смету до состояния «можно жить», предусмотрите резерв и согласуйте независимую проверку ключевых этапов строительства.",
+      "weight": 3
+    }
+  ],
+  "undecided": [
+    {
+      "id": "choice-priorities",
+      "title": "Вы сравнили варианты по тому, как будете реально жить?",
+      "note": "Дом, квартира и участок со строительством — разные сценарии повседневной жизни.",
+      "action": "Составьте список из пяти обязательных требований: дорога, площадь, обслуживание, дети, работа, отдых.",
+      "weight": 3
+    },
+    {
+      "id": "choice-math",
+      "title": "Сравнивали полную стоимость каждого сценария, а не только цену объекта?",
+      "note": "Ремонт, строительство, коммунальные платежи, дорога и содержание могут изменить расчёт.",
+      "action": "Посчитайте 2–3 сценария на одинаковый период, включая первоначальные и будущие затраты.",
+      "weight": 4
+    },
+    {
+      "id": "choice-time",
+      "title": "Понимаете, когда сможете реально пользоваться недвижимостью?",
+      "note": "Покупка готовой квартиры и строительство дома могут сильно отличаться по срокам и усилиям.",
+      "action": "Для каждого варианта отметьте: когда получите ключи, когда сможете переехать и какие этапы нужно пройти.",
+      "weight": 3
+    },
+    {
+      "id": "choice-location",
+      "title": "Проверили, подходит ли расположение вашей привычной жизни?",
+      "note": "Рядом с городом не всегда означает удобно для работы, школы и повседневных поездок.",
+      "action": "Проверьте реальные маршруты в часы пик, доступ к инфраструктуре и сезонную проходимость дорог.",
+      "weight": 3
+    },
+    {
+      "id": "choice-risks",
+      "title": "Вы понимаете, что именно нужно проверить в каждом варианте?",
+      "note": "Для новостройки, вторички и загородного дома главные вопросы различаются.",
+      "action": "Сравните обязательные проверки разных форматов и выберите вариант, риски и организацию которого вы готовы контролировать.",
+      "weight": 4
+    }
+  ]
+};
+  const state={type:null,idx:0,answers:{},stage:'select'};
+  const root=document.getElementById('quiz-content');
+  const stageCaption=document.getElementById('stage-caption');
+  const labels={yes:'Да, проверено',unknown:'Пока не знаю / не уверен(а)',no:'Нет, ещё не проверяли'};
+  const escapeHtml=s=>String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const selectedType=()=>types.find(t=>t.id===state.type);
+  const questions=()=>[...universal,...specialized[state.type]];
+  function announce(s){document.getElementById('announcer').textContent=s}
+  function render(){
+    if(state.stage==='select'){renderSelect();return}
+    if(state.stage==='question'){renderQuestion();return}
+    renderResult();
+  }
+  function renderSelect(){
+    stageCaption.textContent='Выберите свой сценарий';
+    root.innerHTML=`<div class="mini-heading">Ваш маршрут</div><h3 class="step-title">Что вы планируете приобрести?</h3><p class="question-note">Можно пройти диагностику для одного объекта, а затем начать заново для другого.</p><div class="choices" role="group" aria-label="Тип недвижимости">${types.map(t=>`<button type="button" class="choice ${state.type===t.id?'selected':''}" data-type="${t.id}" aria-pressed="${state.type===t.id}"><span class="choice-icon" aria-hidden="true">${t.icon}</span><span><strong>${t.label}</strong><small>${t.sub}</small></span></button>`).join('')}</div><div class="quiz-actions"><span class="nudge">В каждом сценарии — 9 вопросов, без регистрации.</span><button type="button" class="btn btn-dark" id="start-quiz" ${!state.type?'disabled':''}>К вопросам <span aria-hidden="true">→</span></button></div>`;
+    root.querySelectorAll('[data-type]').forEach(btn=>btn.addEventListener('click',()=>{state.type=btn.dataset.type;state.answers={};state.idx=0;renderSelect();root.querySelector('[data-type="'+state.type+'"]').focus()}));
+    root.querySelector('#start-quiz').addEventListener('click',()=>{if(!state.type)return;state.stage='question';state.idx=0;render();announce(`Вопрос 1 из ${questions().length}`)});
+  }
+  function renderQuestion(){
+    const qs=questions(), q=qs[state.idx], val=state.answers[q.id];
+    stageCaption.textContent=`Вопрос ${state.idx+1} из ${qs.length}`;
+    root.innerHTML=`<div class="step-counter">${escapeHtml(selectedType().label)} · Вопрос ${state.idx+1} из ${qs.length}</div><div class="progress" role="progressbar" aria-label="Прогресс диагностики" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(state.idx/qs.length*100)}"><div style="width:${Math.round(state.idx/qs.length*100)}%"></div></div><div style="padding-top:28px"><div class="mini-heading">Что уже известно</div><h3 class="step-title">${escapeHtml(q.title)}</h3><p class="question-note">${escapeHtml(q.note)}</p><div class="answer-grid" role="group" aria-label="Ответ на вопрос">${['yes','unknown','no'].map(a=>`<button type="button" class="answer ${val===a?'selected':''}" data-answer="${a}" aria-pressed="${val===a}"><span class="radio" aria-hidden="true"></span>${labels[a]}</button>`).join('')}</div><div class="quiz-actions"><button type="button" id="back" class="btn btn-muted">← Назад</button><button type="button" class="btn btn-dark" id="next" ${!val?'disabled':''}>${state.idx===qs.length-1?'Получить рекомендации':'Следующий вопрос →'}</button></div></div>`;
+    root.querySelectorAll('[data-answer]').forEach(btn=>btn.addEventListener('click',()=>{state.answers[q.id]=btn.dataset.answer;renderQuestion();root.querySelector('[data-answer="'+state.answers[q.id]+'"]').focus()}));
+    root.querySelector('#back').addEventListener('click',()=>{if(state.idx===0){state.stage='select'}else{state.idx--}render();announce('Предыдущий шаг');root.querySelector('#back, #start-quiz')?.focus()});
+    root.querySelector('#next').addEventListener('click',()=>{if(!state.answers[q.id])return;if(state.idx===qs.length-1)state.stage='result';else state.idx++;render();announce(state.stage==='result'?'Результат диагностики':`Вопрос ${state.idx+1} из ${qs.length}`)});
+  }
+  function compute(){
+    const qs=questions(), checked=qs.filter(q=>state.answers[q.id]==='yes'),unknown=qs.filter(q=>state.answers[q.id]==='unknown'),missing=qs.filter(q=>state.answers[q.id]==='no');
+    const pending=[...missing,...unknown].sort((a,b)=> b.weight-a.weight || (state.answers[a.id]==='no'?-1:1)).slice(0,5);
+    const major=missing.filter(q=>q.weight>=4).length;
+    let category,headline,description;
+    if(state.type==='undecided'){
+      if(missing.length+unknown.length>=4){category='Сначала — стратегия';headline='Лучше определить подходящий сценарий до поиска объекта';description='Вы пока выбираете формат недвижимости. Это нормально: сначала сравним образ жизни, сроки и полную стоимость вариантов, затем перейдём к конкретным объектам.'}
+      else {category='Выбор становится понятнее';headline='Вы уже понимаете, на что опираться при выборе';description='Вы определили часть важных критериев. Следующий шаг — сравнить два-три сценария в одних условиях и только после этого искать подходящие объекты.'}
+    } else if(major>=2 || missing.length+unknown.length>=6){category='Сначала уточнить существенное';headline='Есть вопросы, которые лучше закрыть до оплаты';description='По вашим ответам несколько важных обстоятельств ещё не выяснены. Это не означает, что объект плохой, но спешить с обязательствами пока не стоит.'}
+    else if(missing.length+unknown.length>0){category='Нужны уточнения';headline='Часть важных вопросов ещё открыта';description='Основа для решения уже есть. Теперь стоит проверить конкретные условия и сопоставить устные обещания с документами.'}
+    else {category='Подготовленный покупатель';headline='Вы уже продумали много важных вопросов';description='Все пункты отмечены как проверенные с ваших слов. Это хороший старт, но не доказательство юридической безопасности объекта и не замена проверки документов.'}
+    const steps=state.type==='undecided' ? [
+      'Запишите три главных критерия будущей недвижимости для вашей семьи или задачи.',
+      'Сравните два-три варианта по полной стоимости, срокам и образу жизни.',
+      'Выберите подходящий сценарий, затем проходите проверку конкретного объекта.'
+    ] : [
+      'Запросите документы и условия по пунктам, которые пока не подтверждены.',
+      'Сопоставьте сведения из документов с фактическим состоянием объекта и обещаниями продавца.',
+      'До передачи денег обсудите спорные моменты с независимым профильным специалистом.'
+    ];
+    return {qs,checked,unknown,missing,pending,category,headline,description,steps};
+  }
+  function getReport(){
+    const r=compute();
+    const lines=['Памятка по предварительной диагностике покупки недвижимости','Марина Утробина | Стратегия Недвижимости / ИнвестПространство',`Направление: ${selectedType().label}`,`Профиль: ${r.category}`,r.headline,'','ПЕРВООЧЕРЕДНЫЕ ВОПРОСЫ:'];
+    if(!r.pending.length) lines.push('По вашим ответам все пункты отмечены как проверенные. Проведите завершающую проверку документов перед сделкой.');
+    r.pending.forEach((q,i)=>lines.push(`${i+1}. ${q.title}`,`   Ваш ответ: ${labels[state.answers[q.id]]}`,`   Почему важно: ${q.note}`,`   Что сделать: ${q.action}`,''));
+    lines.push('СЛЕДУЮЩИЕ ШАГИ:', ...r.steps.map((x,i)=>`${i+1}. ${x}`),'',`Отмечено «Да»: ${r.checked.length}; «Не знаю»: ${r.unknown.length}; «Нет»: ${r.missing.length}.`,'','Важно: результаты основаны только на ваших ответах. Это обучающая памятка, не юридическое заключение, не проверка объекта и не гарантия сделки. Требования и условия могут меняться, проверяйте актуальные сведения.','','Марина Утробина · Екатеринбург, Свердловская область · сделки по России','Telegram: '+CONTACT.telegramDirect,'WhatsApp: '+CONTACT.whatsapp,'MAX: '+CONTACT.max,'Канал: '+CONTACT.telegramChannel);
+    return lines.join('\n');
+  }
+  function renderResult(){
+    const r=compute();
+    stageCaption.textContent='Ваш персональный результат';
+    const priorityHtml=r.pending.length ? r.pending.map((q,i)=>{
+      const ans=state.answers[q.id];
+      return `<li class="todo"><span class="todo-icon" aria-hidden="true">${i+1}</span><div><b>${escapeHtml(q.title)}</b><p><strong>${ans==='no'?'Пока не проверено':'Пока нет уверенности'}.</strong> ${escapeHtml(q.note)}</p><p class="todo-action"><strong>Что сделать:</strong> ${escapeHtml(q.action)}</p></div></li>`
+    }).join('') : `<li class="todo neutral"><span class="todo-icon" aria-hidden="true">✓</span><div><b>Финальная проверка перед решением</b><p>Ответы «да» — ваша самооценка, а не проверенные системой документы. Перед сделкой перепроверьте актуальные сведения и условия с профильным специалистом.</p></div></li>`;
+    root.innerHTML=`<div class="result-header"><span class="result-tag">${escapeHtml(r.category)} · ${escapeHtml(selectedType().label)}</span><h3 class="result-title">${escapeHtml(r.headline)}</h3><p class="result-description">${escapeHtml(r.description)}</p></div><div class="stats" aria-label="Сводка ответов"><div class="stat"><b>${r.checked.length}</b><span>Вы отметили «да»</span></div><div class="stat"><b>${r.unknown.length}</b><span>Пока неизвестно</span></div><div class="stat"><b>${r.missing.length}</b><span>Не проверено</span></div></div><h3 class="result-subhead">${r.pending.length?'Ваши зоны внимания':'Что сделать перед окончательным решением'}</h3><ul class="todo-list">${priorityHtml}</ul><h3 class="result-subhead">Три следующих шага</h3><ol class="action-list">${r.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol><div class="cta-card"><div><h3>Хотите разобрать именно вашу ситуацию?</h3><p>Я помогу составить понятный план проверки объекта или выбрать подходящий путь к своему дому. Без давления и обещаний «идеальной сделки».</p></div><div class="contact-options"><a class="btn btn-primary" id="contact-main" href="${CONTACT.telegramDirect}" target="_blank" rel="noopener noreferrer">Написать Марине в Telegram ↗</a><a class="btn btn-secondary" href="${CONTACT.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a class="btn btn-secondary" href="${CONTACT.max}" target="_blank" rel="noopener noreferrer">MAX ↗</a></div></div><div class="result-tools"><button type="button" class="btn btn-outline" id="copy-report">Скопировать памятку</button><button type="button" class="btn btn-outline" id="download-report">Скачать памятку .txt</button><button type="button" class="btn btn-outline" id="print-report">Сохранить как PDF</button><button type="button" class="btn btn-muted" id="again">Пройти ещё раз</button></div><p class="micro-note">Ответы обрабатываются только на вашем устройстве, автоматически Марине не передаются. Если захотите обсудить результат, сами отправьте сохранённую памятку в удобном мессенджере. Диагностика — не юридическое заключение и не гарантия безопасности покупки.</p>`;
+    root.querySelector('#copy-report').addEventListener('click',async()=>{
+      const txt=getReport();
+      try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(txt)}else{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();if(!ok)throw new Error('copy unsupported')}toast('Памятка скопирована')}catch(e){downloadText(txt);toast('Копирование недоступно — памятка сохранена файлом')}
+    });
+    root.querySelector('#download-report').addEventListener('click',()=>{downloadText(getReport());toast('Памятка готова')});
+    root.querySelector('#print-report').addEventListener('click',()=>window.print());
+    root.querySelector('#again').addEventListener('click',()=>{state.type=null;state.answers={};state.idx=0;state.stage='select';render();document.getElementById('diagnostics').scrollIntoView({behavior:'smooth',block:'start'});announce('Диагностика начата заново')});
+  }
+  function downloadText(text){const blob=new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Памятка_перед_покупкой_недвижимости.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+  function toast(msg){const old=document.querySelector('.toast');if(old)old.remove();const el=document.createElement('div');el.className='toast';el.setAttribute('role','status');el.textContent=msg;document.body.append(el);setTimeout(()=>{if(el.parentNode)el.remove()},3500)}
+  render();
+})();
+</script>
+</body>
+</html>
